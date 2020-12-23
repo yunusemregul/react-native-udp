@@ -259,5 +259,5 @@ export default class UdpSocket extends EventEmitter {
      */
     remoteAddress(): void;
 }
-import { EventEmitter } from "node/events";
+import { EventEmitter } from "events";
 import { Buffer } from "buffer";
